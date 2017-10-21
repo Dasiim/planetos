@@ -1,0 +1,15 @@
+.solar-farm-overview {
+	text-align: center;
+
+	.total-kw {
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.graphs {
+		font-size: 15px;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		margin: 10px 0;
+	}
+}
